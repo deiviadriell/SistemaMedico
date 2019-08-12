@@ -1,0 +1,66 @@
+
+.dropdown-menu{
+    cursor: pointer;
+}
+.flex-parent{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-child{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.disabledTab {
+    pointer-events: none;
+}
+.error_input{
+    margin-bottom: 30px;
+}
+.bx{
+    outline: 1px blue solid;
+}
+/* Page ListPaciente*/
+/* Editar en diferentes vistas */
+#editPaciente .modal-lg{
+    width: 1100px;
+}
+/* Page ListPaciente*/
+
+/* Page Paciente */
+#contenedorImg{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.btn-foto{
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+
+}
+/* Page Paciente */
+
+
+.tb_scroll tbody tr {
+    display: inline-table;
+    table-layout: fixed;
+    overflow: hidden;
+    
+}
+
+.tb_scroll table{
+    height: 300px;              
+    display: -moz-groupbox; 
+}
+.tb_scroll tbody{
+    overflow-y: scroll;      
+    height: 40vh;
+    min-height: 200px;
+    position: absolute;
+}
